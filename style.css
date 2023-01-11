@@ -1,0 +1,156 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/FromZeroToHero/assets/images/bg1.jpg);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  justify-content: flex-end;
+  align-items: center;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.3s;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: rgb(238, 51, 51);
+}
+
+.whoami {
+  width: 100%;
+  color: white;
+}
+.name {
+  font-size: 70px;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(180, 17, 17, 0.87);
+}
+.profession {
+  text-align: center;
+  font-size: 25px;
+  background-color: rgba(136, 18, 160, 0.877);
+}
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.section {
+  margin: auto;
+  width: 600px;
+  height: 300px;
+}
+
+.photo {
+  position: relative;
+  top: 20px;
+  left: 5px;
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.contacts {
+  position: relative;
+  background-color: white;
+  left: 20px;
+  width: 530px;
+  height: 90%;
+  border-radius: 5px;
+}
+.contacts_nav {
+  position: relative;
+  top: -200px;
+  left: 200px;
+}
+
+.contacts-section {
+  display: flex;
+}
+
+.section_title {
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.contacts_title {
+  font-size: 30px;
+  margin: auto;
+}
+
+.icons {
+  position: relative;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  font-size: 25px;
+  gap: 25px;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.blocks {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  width: 530px;
+  height: 90%;
+  border-radius: 5px;
+  top: 15px;
+}
+
+.information {
+  font-size: 25px;
+}
+
+.footer {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  /*   background-color: rgb(204 0 0); */
+  border-radius: 5px;
+  color: white;
+  align-items: center;
+}
+
+.year {
+  position: relative;
+  left: 45px;
+}
+
+.namefoot {
+  position: relative;
+  right: 45px;
+  text-decoration: none;
+}
+
+.link-foot {
+  color: white;
+}
+
+.link-foot:hover {
+  color: rgb(238, 51, 51);
+}

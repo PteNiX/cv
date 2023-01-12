@@ -1,4 +1,4 @@
-//open close hamubrger
+
 const hamburger = document.querySelector(".burger");
 
 function toggleBurger() {
@@ -6,7 +6,7 @@ function toggleBurger() {
 }
 hamburger.addEventListener("click", toggleBurger);
 
-//open close menu
+
 const menu = document.querySelector(".menu");
 
 function toggleMenu() {
@@ -14,7 +14,6 @@ function toggleMenu() {
 }
 hamburger.addEventListener("click", toggleMenu);
 
-//close menu
 const menu1 = document.querySelectorAll(".menu-link");
 
 const menuLink = document.querySelector(".menu-active");

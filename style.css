@@ -10,7 +10,9 @@ body {
 
   margin: auto;
 }
-
+.header {
+  width: 100%;
+}
 .nav-list {
   display: flex;
   flex-direction: row;
@@ -69,12 +71,13 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
   gap: 5px;
 }
 
 .section {
   margin: auto;
-  width: 600px;
+
   height: 380px;
 }
 
@@ -100,6 +103,7 @@ body {
   position: relative;
   top: -200px;
   left: 200px;
+  width: 300px;
 }
 
 .section_title {
@@ -328,7 +332,7 @@ body {
   .menu-link {
     display: flex;
     flex-direction: row;
-    font-size: 30px;
+    font-size: 27px;
     color: #fbdcd3d7;
     align-items: center;
     scroll-behavior: smooth;
@@ -342,6 +346,11 @@ body {
   }
   .profession {
     font-size: 15px;
+  }
+  .section {
+    margin: auto;
+    width: 80%;
+    height: 380px;
   }
 }
 
@@ -370,13 +379,29 @@ body {
   }
 }
 
-@media all and (max-width: 610px) {
+@media (min-width: 611px) and (max-width: 754px) {
+  .section {
+    margin: auto;
+    width: 600px;
+    height: 380px;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 610px) {
   .blocks {
     width: 430px;
+    height: 280px;
   }
 
   .contacts {
     width: 430px;
+    height: 280px;
+  }
+
+  .section {
+    margin: auto;
+    width: 600px;
+    height: 330px;
   }
 
   .photo {
@@ -399,5 +424,281 @@ body {
   .contacts_nav {
     position: relative;
     top: -140px;
+    width: 220px;
+  }
+
+  .gai-text {
+    position: relative;
+    left: 0px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 539px) {
+  .blocks {
+    width: 380px;
+    height: 280px;
+  }
+
+  .contacts {
+    width: 380px;
+    height: 280px;
+  }
+
+  .section {
+    margin: auto;
+    width: 600px;
+    height: 330px;
+  }
+
+  .photo {
+    position: relative;
+    top: 40px;
+    left: 5px;
+    width: 120px;
+    height: 160px;
+  }
+  .icons {
+    position: relative;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .list {
+    font-size: 15px;
+  }
+
+  .contacts_nav {
+    position: relative;
+    top: -140px;
+    left: 130px;
+    width: 180px;
+  }
+
+  .gai-text {
+    position: relative;
+    left: 0px;
+  }
+}
+
+@media (min-width: 410px) and (max-width: 449px) {
+  .blocks {
+    width: 350px;
+    height: 260px;
+  }
+
+  .contacts {
+    width: 350px;
+    height: 260px;
+  }
+
+  .section {
+    margin: auto;
+    width: 600px;
+    height: 330px;
+  }
+
+  .photo {
+    position: relative;
+    top: 40px;
+    left: 5px;
+    width: 120px;
+    height: 160px;
+  }
+  .icons {
+    position: relative;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .list {
+    font-size: 15px;
+  }
+
+  .education_text {
+    position: relative;
+    top: 20px;
+    left: 0px;
+  }
+
+  .icons-brsu {
+    position: relative;
+    top: 20px;
+  }
+
+  .contacts_nav {
+    position: relative;
+    top: -140px;
+    left: 130px;
+    width: 180px;
+  }
+
+  .gai-text {
+    position: relative;
+    left: 0px;
+  }
+}
+
+@media (min-width: 365px) and (max-width: 409px) {
+  .blocks {
+    width: 300px;
+    height: 260px;
+  }
+
+  .contacts {
+    width: 300px;
+    height: 260px;
+  }
+
+  .section {
+    margin: auto;
+    width: 400px;
+    height: 330px;
+  }
+
+  .photo {
+    position: relative;
+    top: 40px;
+    left: 5px;
+    width: 90px;
+    height: 120px;
+  }
+  .icons {
+    position: relative;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .list {
+    font-size: 12px;
+  }
+
+  .contacts_nav {
+    position: relative;
+    top: -100px;
+    left: 130px;
+    width: 180px;
+  }
+
+  .section_title {
+    position: relative;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    top: 5px;
+  }
+
+  .contacts_title {
+    position: relative;
+    top: -25px;
+    font-size: 20px;
+    margin: auto;
+  }
+
+  .gai-text {
+    position: relative;
+    left: 0px;
+  }
+
+  .education_text {
+    position: relative;
+    top: 20px;
+  }
+
+  .icons-brsu {
+    position: relative;
+    top: 20px;
+  }
+
+  .section_title {
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 364px) {
+  .name {
+    font-size: 40px;
+    margin: auto;
+  }
+  .profession {
+    font-size: 13px;
+  }
+  .blocks {
+    width: 250px;
+    height: 200px;
+  }
+
+  .contacts {
+    width: 250px;
+    height: 200px;
+  }
+
+  .section {
+    margin: auto;
+    width: 400px;
+    height: 210px;
+  }
+
+  .photo {
+    position: relative;
+    top: 40px;
+    left: 5px;
+    width: 90px;
+    height: 120px;
+  }
+  .icons {
+    position: relative;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .list {
+    font-size: 12px;
+  }
+
+  .contacts_nav {
+    position: relative;
+    top: -100px;
+    left: 100px;
+    width: 180px;
+  }
+
+  .section_title {
+    position: relative;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    top: 5px;
+  }
+
+  .contacts_title {
+    position: relative;
+    top: -25px;
+    font-size: 20px;
+    margin: auto;
+  }
+
+  .gai-text {
+    position: relative;
+    left: 0px;
+  }
+
+  .education_text {
+    position: relative;
+    top: 20px;
+    left: -10px;
+  }
+
+  .icons-brsu {
+    position: relative;
+    top: 20px;
+    left: -10px;
+  }
+
+  .section_title {
+    margin-bottom: 10px;
   }
 }

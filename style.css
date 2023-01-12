@@ -431,6 +431,13 @@ body {
     position: relative;
     left: 0px;
   }
+
+  .education_text {
+    top: 20px;
+  }
+  .icons-brsu {
+    top: 20px;
+  }
 }
 
 @media (min-width: 450px) and (max-width: 539px) {
@@ -536,6 +543,11 @@ body {
 
   .gai-text {
     position: relative;
+    left: -20px;
+  }
+
+  .icons-gai {
+    width: 50px;
     left: 0px;
   }
 }
@@ -599,7 +611,7 @@ body {
 
   .gai-text {
     position: relative;
-    left: 0px;
+    left: -20px;
   }
 
   .education_text {
@@ -614,6 +626,12 @@ body {
 
   .section_title {
     margin-bottom: 10px;
+  }
+  .icons-gai {
+    position: relative;
+    width: 40px;
+    height: 25px;
+    left: -0px;
   }
 }
 
@@ -683,7 +701,7 @@ body {
 
   .gai-text {
     position: relative;
-    left: 0px;
+    left: -20px;
   }
 
   .education_text {
@@ -700,5 +718,12 @@ body {
 
   .section_title {
     margin-bottom: 10px;
+  }
+
+  .icons-gai {
+    position: relative;
+    width: 40px;
+    height: 25px;
+    left: 0px;
   }
 }

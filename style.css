@@ -6,6 +6,9 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url(/FromZeroToHero/assets/images/bg1.jpg);
+  background-size: cover;
+
+  margin: auto;
 }
 
 .nav-list {
@@ -199,4 +202,11 @@ body {
 .icons-bike {
   position: relative;
   top: -2px;
+}
+
+@media (min-width: 1440px) {
+  body {
+    width: 1440px;
+    margin: auto;
+  }
 }

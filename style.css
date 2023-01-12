@@ -1,4 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
+  font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
   background-image: url(/FromZeroToHero/assets/images/bg1.jpg);
@@ -17,7 +21,7 @@ body {
   padding: 0 20px;
   line-height: 50px;
   transition: 0.3s;
-  color: white;
+  color: #fbdcd3d7;
   text-decoration: none;
 }
 
@@ -27,18 +31,18 @@ body {
 
 .whoami {
   width: 100%;
-  color: white;
+  color: #fbdcd3d7;
 }
 .name {
   font-size: 70px;
   margin: auto;
   text-align: center;
-  background-color: rgba(180, 17, 17, 0.87);
+  background-color: rgba(134, 13, 13, 0.925);
 }
 .profession {
   text-align: center;
   font-size: 25px;
-  background-color: rgba(136, 18, 160, 0.877);
+  background-color: rgba(98, 13, 116, 0.877);
 }
 .main {
   position: relative;
@@ -51,21 +55,21 @@ body {
 .section {
   margin: auto;
   width: 600px;
-  height: 300px;
+  height: 380px;
 }
 
 .photo {
   position: relative;
-  top: 20px;
+  top: 40px;
   left: 5px;
-  width: 150px;
-  height: 200px;
+  width: 165px;
+  height: 220px;
   border-radius: 5px;
 }
 
 .contacts {
   position: relative;
-  background-color: white;
+  background-color: #fbdcd3d7;
   left: 20px;
   width: 530px;
   height: 90%;
@@ -82,12 +86,16 @@ body {
 }
 
 .section_title {
+  position: relative;
   font-size: 30px;
   margin: auto;
   text-align: center;
+  top: 5px;
 }
 
 .contacts_title {
+  position: relative;
+  top: -25px;
   font-size: 30px;
   margin: auto;
 }
@@ -102,7 +110,7 @@ body {
 .list {
   display: flex;
   list-style: none;
-  font-size: 25px;
+  font-size: 22px;
   gap: 25px;
   align-items: center;
 }
@@ -112,9 +120,13 @@ body {
   color: black;
 }
 
+.link:hover {
+  color: rgba(98, 13, 116, 0.877);
+}
+
 .blocks {
   position: relative;
-  background-color: white;
+  background-color: #fbdcd3d7;
   margin: auto;
   width: 530px;
   height: 90%;
@@ -130,27 +142,61 @@ body {
   height: 90px;
   display: flex;
   justify-content: space-between;
-  /*   background-color: rgb(204 0 0); */
   border-radius: 5px;
-  color: white;
+  color: #fbdcd3d7;
   align-items: center;
 }
 
 .year {
   position: relative;
-  left: 45px;
+  left: 10%;
 }
 
 .namefoot {
   position: relative;
-  right: 45px;
+  right: 10%;
   text-decoration: none;
 }
 
 .link-foot {
-  color: white;
+  color: #fbdcd3d7;
 }
 
 .link-foot:hover {
   color: rgb(238, 51, 51);
+}
+
+.education_text {
+  position: relative;
+  left: 10px;
+}
+
+.icons-brsu {
+  position: relative;
+}
+
+.icons-epam {
+  top: 2px;
+}
+
+.icons-gai {
+  position: relative;
+  width: 70px;
+  height: 50px;
+  left: 0px;
+}
+
+.gai-text {
+  position: relative;
+  left: -30px;
+}
+
+.icons-cyber {
+  position: relative;
+  top: 7px;
+}
+
+.icons-bike {
+  position: relative;
+  top: -2px;
 }

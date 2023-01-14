@@ -7,7 +7,6 @@ body {
   flex-direction: column;
   background-image: url(/FromZeroToHero/assets/images/bg1.jpg);
   background-size: cover;
-
   margin: auto;
 }
 .header {
@@ -119,6 +118,21 @@ body {
   top: -25px;
   font-size: 30px;
   margin: auto;
+}
+
+.about_title {
+  margin-bottom: 20px;
+}
+
+.courses_title {
+  margin-bottom: 20px;
+}
+
+.career_title {
+  margin-bottom: 20px;
+}
+.interests_title {
+  margin-bottom: 20px;
 }
 
 .icons {

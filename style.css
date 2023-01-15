@@ -499,7 +499,14 @@ body {
 
   .gai-text {
     position: relative;
-    left: 0px;
+    left: -30px;
+  }
+
+  .icons-gai {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    left: -5px;
   }
 }
 

@@ -251,7 +251,6 @@ body {
     font-size: 15px;
     justify-content: flex-end;
     align-items: center;
-    scroll-behavior: smooth;
     list-style: none;
   }
 
@@ -350,7 +349,6 @@ body {
     font-size: 27px;
     color: #fbdcd3d7;
     align-items: center;
-    scroll-behavior: smooth;
     list-style: none;
     text-decoration: none;
   }

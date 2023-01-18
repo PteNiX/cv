@@ -18,7 +18,6 @@ body {
   font-size: 25px;
   justify-content: flex-end;
   align-items: center;
-  scroll-behavior: smooth;
   list-style: none;
 }
 .nav-link {
@@ -237,6 +236,16 @@ body {
   top: -2px;
 }
 
+.icons-rs {
+  width: 45px;
+  left: 10px;
+}
+
+.text-rs {
+  position: relative;
+  left: -5px;
+}
+
 @media (min-width: 1440px) {
   body {
     width: 1440px;
@@ -364,6 +373,11 @@ body {
     margin: auto;
     width: 80%;
     height: 380px;
+  }
+
+  .text-rs {
+    position: relative;
+    left: 0px;
   }
 }
 

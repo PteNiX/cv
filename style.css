@@ -5,7 +5,7 @@ body {
   font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
-  background-image: url(/FromZeroToHero/assets/images/bg1.jpg);
+  background-image: url(/cv/assets/images/bg1.jpg);
   background-size: cover;
   margin: auto;
 }

@@ -8,6 +8,7 @@ body {
   background-image: url(/cv/assets/images/bg1.jpg);
   background-size: cover;
   margin: auto;
+  overflow-x: hidden;
 }
 .header {
   width: 100%;
@@ -202,6 +203,7 @@ body {
 
 .education_text {
   position: relative;
+  margin-left: -15px;
   left: 10px;
   top: 20px;
 }
@@ -250,6 +252,11 @@ body {
   body {
     width: 1440px;
     margin: auto;
+  }
+
+  .header {
+    position: relative;
+    left: -10px;
   }
 }
 

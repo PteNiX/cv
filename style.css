@@ -81,12 +81,14 @@ body {
 }
 
 .photo {
+  border-radius: 100%;
   position: relative;
   top: 40px;
   left: 5px;
-  width: 165px;
-  height: 220px;
-  border-radius: 5px;
+  /*   width: 165px;
+  height: 220px; */
+  width: 180px;
+  height: 180px;
 }
 
 .contacts {
@@ -105,6 +107,11 @@ body {
   width: 300px;
 }
 
+.contacts-text {
+  position: relative;
+  top: 30px;
+}
+
 .section_title {
   position: relative;
   font-size: 30px;
@@ -115,7 +122,7 @@ body {
 
 .contacts_title {
   position: relative;
-  top: -25px;
+  top: 15px;
   font-size: 30px;
   margin: auto;
 }
@@ -437,12 +444,19 @@ body {
     width: 600px;
     height: 330px;
   }
+  .contacts_title {
+    position: relative;
+    left: -40px;
+    top: -25px;
+
+    margin: auto;
+  }
 
   .photo {
     position: relative;
-    top: 40px;
+    top: 60px;
     left: 5px;
-    width: 120px;
+    width: 160px;
     height: 160px;
   }
   .icons {
@@ -493,10 +507,10 @@ body {
 
   .photo {
     position: relative;
-    top: 40px;
-    left: 5px;
-    width: 120px;
-    height: 160px;
+    top: 50px;
+    left: -10px;
+    width: 130px;
+    height: 130px;
   }
   .icons {
     position: relative;
@@ -548,10 +562,10 @@ body {
 
   .photo {
     position: relative;
-    top: 40px;
-    left: 5px;
+    top: 50px;
+    left: -10px;
     width: 120px;
-    height: 160px;
+    height: 120px;
   }
   .icons {
     position: relative;
@@ -612,9 +626,9 @@ body {
 
   .photo {
     position: relative;
-    top: 40px;
-    left: 5px;
-    width: 90px;
+    top: 50px;
+    left: -10px;
+    width: 120px;
     height: 120px;
   }
   .icons {
@@ -625,7 +639,7 @@ body {
   }
 
   .list {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .contacts_nav {
@@ -645,6 +659,7 @@ body {
 
   .contacts_title {
     position: relative;
+    left: -20px;
     top: -25px;
     font-size: 20px;
     margin: auto;
@@ -703,9 +718,9 @@ body {
   .photo {
     position: relative;
     top: 40px;
-    left: 5px;
-    width: 90px;
-    height: 120px;
+    left: -10px;
+    width: 100px;
+    height: 100px;
   }
   .icons {
     position: relative;
@@ -735,7 +750,7 @@ body {
 
   .contacts_title {
     position: relative;
-    top: -25px;
+    top: 0px;
     font-size: 20px;
     margin: auto;
   }

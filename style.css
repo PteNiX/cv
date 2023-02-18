@@ -83,7 +83,7 @@ body {
 .photo {
   border-radius: 100%;
   position: relative;
-  top: 40px;
+  top: 60px;
   left: 5px;
   /*   width: 165px;
   height: 220px; */
@@ -109,7 +109,7 @@ body {
 
 .contacts-text {
   position: relative;
-  top: 30px;
+  top: 50px;
 }
 
 .section_title {
@@ -448,8 +448,13 @@ body {
     position: relative;
     left: -40px;
     top: -25px;
-
     margin: auto;
+  }
+
+  .contacts-text {
+    position: relative;
+    top: 15px;
+    left: -5px;
   }
 
   .photo {
@@ -507,7 +512,7 @@ body {
 
   .photo {
     position: relative;
-    top: 50px;
+    top: 60px;
     left: -10px;
     width: 130px;
     height: 130px;
@@ -528,6 +533,10 @@ body {
     top: -140px;
     left: 130px;
     width: 180px;
+  }
+  .contacts-text {
+    position: relative;
+    top: 35px;
   }
 
   .gai-text {
@@ -562,7 +571,7 @@ body {
 
   .photo {
     position: relative;
-    top: 50px;
+    top: 60px;
     left: -10px;
     width: 120px;
     height: 120px;
@@ -572,6 +581,10 @@ body {
     left: 10px;
     width: 30px;
     height: 30px;
+  }
+  .contacts-text {
+    position: relative;
+    top: 40px;
   }
 
   .list {
@@ -626,7 +639,7 @@ body {
 
   .photo {
     position: relative;
-    top: 50px;
+    top: 60px;
     left: -10px;
     width: 120px;
     height: 120px;
@@ -647,6 +660,10 @@ body {
     top: -100px;
     left: 130px;
     width: 180px;
+  }
+  .contacts-text {
+    position: relative;
+    top: 30px;
   }
 
   .section_title {
@@ -717,7 +734,7 @@ body {
 
   .photo {
     position: relative;
-    top: 40px;
+    top: 60px;
     left: -10px;
     width: 100px;
     height: 100px;
@@ -728,7 +745,9 @@ body {
     width: 20px;
     height: 20px;
   }
-
+  .contacts-text {
+    top: 40px;
+  }
   .list {
     font-size: 12px;
   }

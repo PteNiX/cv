@@ -79,7 +79,9 @@ body {
 
   height: 380px;
 }
-
+.list-gai {
+  margin-right: 5px;
+}
 .photo {
   border-radius: 100%;
   position: relative;
@@ -493,7 +495,7 @@ body {
 
   .gai-text {
     position: relative;
-    left: 0px;
+    left: -30px;
   }
 
   .education_text {
@@ -501,6 +503,13 @@ body {
   }
   .icons-brsu {
     top: 20px;
+  }
+
+  .icons-gai {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    left: -5px;
   }
 }
 
@@ -709,7 +718,7 @@ body {
 
   .gai-text {
     position: relative;
-    left: -20px;
+    left: -15px;
   }
 
   .education_text {

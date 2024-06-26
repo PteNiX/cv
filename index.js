@@ -28,10 +28,6 @@ function closeMenu() {
 }
 closeMenu();
 
-function countAge() {
-    console.log(document.querySelector(".age").innerHTML);
-}
-
 function calculateAge(birthDateStr) {
     var parts = birthDateStr.split(".");
     var birthDay = parseInt(parts[0]);

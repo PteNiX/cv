@@ -103,6 +103,10 @@ body {
     height: 180px;
 }
 
+.pdf {
+    top: 3px !important;
+    cursor: pointer;
+}
 .contacts {
     position: relative;
     background-color: #fbdcd3d7;

@@ -56,3 +56,25 @@ var birthDateStr = "08.05.1991";
 var age = calculateAge(birthDateStr);
 
 ageElement.textContent = "Age: " + age;
+
+//check CRM server
+
+async function checkLink(url) {
+    try {
+        const response = await fetch(url, { method: "HEAD" });
+        if (!response.ok) {
+            throw new Error("Server is not working. Try again later");
+        }
+    } catch (error) {
+        alert("Server is not working");
+    }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    document
+        .getElementById("wcaCRM")
+        .addEventListener("click", function (event) {
+            event.preventDefault(); // stop link
+            checkLink(this.href); // check link
+        });
+});

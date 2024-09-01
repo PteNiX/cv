@@ -71,7 +71,7 @@ async function checkLink(url) {
         }
         window.location.href = url;
     } catch (error) {
-        alert("Server is not working");
+        alert("Server is not working. Try again later");
     } finally {
         spinner.style.display = "none";
     }

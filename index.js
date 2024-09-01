@@ -59,22 +59,34 @@ ageElement.textContent = "Age: " + age;
 
 //check CRM server
 
+const linkIds = ["wcaCRM", "platoon", "rivalry", "mmr"];
+
 async function checkLink(url) {
+    const spinner = document.getElementById("loadingSpinner");
     try {
+        spinner.style.display = "block";
         const response = await fetch(url, { method: "HEAD" });
         if (!response.ok) {
             throw new Error("Server is not working. Try again later");
         }
+        window.location.href = url;
     } catch (error) {
         alert("Server is not working");
+    } finally {
+        spinner.style.display = "none";
     }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    document
-        .getElementById("wcaCRM")
-        .addEventListener("click", function (event) {
-            event.preventDefault(); // stop link
-            checkLink(this.href); // check link
-        });
-});
+function setupLinkHandlers() {
+    linkIds.forEach((id) => {
+        const linkElement = document.getElementById(id);
+        if (linkElement) {
+            linkElement.addEventListener("click", function (event) {
+                event.preventDefault();
+                checkLink(this.href);
+            });
+        }
+    });
+}
+
+document.addEventListener("DOMContentLoaded", setupLinkHandlers);

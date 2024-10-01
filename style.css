@@ -87,12 +87,17 @@ body {
 }
 .list-lab {
     position: relative;
-    left: 10px;
+    left: 12px;
 }
 
 .current-stack {
     color: rgba(98, 13, 116, 0.877);
     font-weight: 700;
+}
+
+.pro-title {
+    text-align: center;
+    color: blueviolet;
 }
 
 .photo {

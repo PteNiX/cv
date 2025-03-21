@@ -90,3 +90,11 @@ function setupLinkHandlers() {
 }
 
 document.addEventListener("DOMContentLoaded", setupLinkHandlers);
+
+
+function updateYear() {
+    const currentYear = new Date().getFullYear();
+    const yearElement = document.querySelector('.year');
+    yearElement.textContent = `© ${currentYear}`;
+}
+updateYear();
